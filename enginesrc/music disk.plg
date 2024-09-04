@@ -1,0 +1,114 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: music disk - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\MARTTI~1\LOCALS~1\Temp\RSPEA.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/music disk.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\dev\ruoka\Events\kuutio.cpp"
+"D:\dev\ruoka\Events\levy.cpp"
+"D:\dev\ruoka\Events\munkki.cpp"
+"D:\dev\ruoka\Events\munkki2.cpp"
+"D:\dev\ruoka\Events\munkki3.cpp"
+"D:\dev\ruoka\Events\pallo.cpp"
+"D:\dev\ruoka\Events\picfadein.cpp"
+"D:\dev\ruoka\Events\picfadeout.cpp"
+"D:\dev\ruoka\Events\picpulse.cpp"
+"D:\dev\ruoka\Events\picshow.cpp"
+"D:\dev\ruoka\Events\tunneli.cpp"
+"D:\dev\ruoka\Events\tunneli2.cpp"
+"D:\dev\ruoka\Events\twister.cpp"
+"D:\dev\ruoka\Events\vilkku.cpp"
+"D:\dev\ruoka\Events\wobble.cpp"
+"D:\dev\ruoka\beziercurve.cpp"
+"D:\dev\ruoka\bpm.cpp"
+"D:\dev\ruoka\event.cpp"
+"D:\dev\ruoka\hermitecurve.cpp"
+"D:\dev\ruoka\main.cpp"
+"D:\dev\ruoka\matikka.cpp"
+"D:\dev\ruoka\primitives.cpp"
+"D:\dev\ruoka\spline.cpp"
+"D:\dev\ruoka\stuff.cpp"
+"D:\dev\ruoka\vertexbuffer.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MARTTI~1\LOCALS~1\Temp\RSPEA.tmp" 
+Creating temporary file "C:\DOCUME~1\MARTTI~1\LOCALS~1\Temp\RSPEB.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib bass.lib opengl32.lib glu32.lib jpeg.lib winmm.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/music disk.pdb" /machine:I386 /out:"Release/music disk.exe" 
+.\Release\kuutio.obj
+.\Release\levy.obj
+.\Release\munkki.obj
+.\Release\munkki2.obj
+.\Release\munkki3.obj
+.\Release\pallo.obj
+.\Release\picfadein.obj
+.\Release\picfadeout.obj
+.\Release\picpulse.obj
+.\Release\picshow.obj
+.\Release\tunneli.obj
+.\Release\tunneli2.obj
+.\Release\twister.obj
+.\Release\vilkku.obj
+.\Release\wobble.obj
+.\Release\beziercurve.obj
+.\Release\bpm.obj
+.\Release\console.obj
+.\Release\event.obj
+.\Release\hermitecurve.obj
+.\Release\image.obj
+.\Release\lista.obj
+.\Release\main.obj
+.\Release\matikka.obj
+.\Release\matrix.obj
+.\Release\mesh.obj
+.\Release\primitives.obj
+.\Release\song.obj
+.\Release\spline.obj
+.\Release\stuff.obj
+.\Release\texture.obj
+.\Release\timer.obj
+.\Release\vector.obj
+.\Release\vertexbuffer.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\MARTTI~1\LOCALS~1\Temp\RSPEB.tmp"
+<h3>Output Window</h3>
+Compiling...
+kuutio.cpp
+levy.cpp
+munkki.cpp
+munkki2.cpp
+munkki3.cpp
+pallo.cpp
+picfadein.cpp
+picfadeout.cpp
+picpulse.cpp
+picshow.cpp
+tunneli.cpp
+tunneli2.cpp
+twister.cpp
+vilkku.cpp
+wobble.cpp
+beziercurve.cpp
+bpm.cpp
+D:\dev\ruoka\bpm.cpp(34) : error C2065: 'aika' : undeclared identifier
+event.cpp
+hermitecurve.cpp
+main.cpp
+matikka.cpp
+primitives.cpp
+spline.cpp
+stuff.cpp
+vertexbuffer.cpp
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+music disk.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

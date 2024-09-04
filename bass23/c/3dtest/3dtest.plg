@@ -1,0 +1,30 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3dtest - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40b /fo"Release/3dtest.res" "D:\dev\ruoka\bass23\c\3dtest\3dtest.rc"" 
+Creating temporary file "C:\DOCUME~1\MARTTI~1\LOCALS~1\Temp\RSP74.tmp" with contents
+[
+/nologo /MD /GX /I ".." /D "WIN32" /D "NDEBUG" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\dev\ruoka\bass23\c\3dtest\3dtest.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\MARTTI~1\LOCALS~1\Temp\RSP74.tmp" 
+Creating command line "link.exe kernel32.lib user32.lib comdlg32.lib gdi32.lib comctl32.lib /nologo /subsystem:windows /pdb:none /machine:I386 /out:"../bin/3dtest.exe"  .\Release\3dtest.obj .\Release\3dtest.res ..\bass.lib "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+3dtest.c
+D:\dev\ruoka\bass23\c\3dtest\3dtest.c(278) : warning C4090: '=' : different 'const' qualifiers
+Linking...
+
+
+
+<h3>Results</h3>
+3dtest.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

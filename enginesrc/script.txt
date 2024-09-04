@@ -1,0 +1,83 @@
+# Brainstorm Advanced Scripting System (B.A.S.S)
+# by Preacher / Brainstorm
+
+
+#0:00 blackness (great way to kill some time :D)
+#0:08 picture with flashing lights (spotlight)
+#0:17 another picture (title screen)
+#0:24 effect appears on the picture
+#0:32 effect changes
+#0:40 another effect (something flowing)
+# 0:48 change
+# 1:03 yet another effect (delaydots?)
+# 1:19 tunnel 
+# 1:35 another kind of a tunnel (lots if sinewave stuff going on)
+# 1:51 something fast and made with dots or lines (or a transition)
+# 2:00 quiet part. 
+# 2:07 lights flashing on an image (credits?)
+# 2:23 something fast, those pink glenz vectors perhaps? 
+# 2:40 image wobbler with something on top
+# 2:56 the end with a flash
+# 3:01 flash 
+# --> blackness
+
+loadsong song.mp3
+
+loadjpg titel.jpg
+loadjpg brs-logo.jpg
+loadjpg credit.jpg
+loadjpg back_rough01.jpg
+loadjpg back_rough02.jpg
+loadjpg shakki.jpg
+loadjpg back04.jpg
+loadjpg back041.jpg
+loadjpg back-face.jpg
+
+starttime 0
+endtime 185000
+debug
+
+# timeline
+
+#picshow 0 20000 titel.jpg
+#levy 0 20000 titel.jpg 
+
+#picshow 0 8000 brs-logo.jpg
+#wobble 0 8000 brs-logo.jpg
+
+#endscript
+
+picfadein 7500 8000 brs-logo.jpg 500
+picpulse 8000 16500 brs-logo.jpg 0.5
+picpulse 16000 24000 titel.jpg 0.3
+picshow 24000 32000 titel.jpg 
+munkki2 24000 32000 titel.jpg 
+picshow 32000 40000 brs-logo.jpg 
+munkki 32000 40000 brs-logo.jpg 
+picshow 40000 63500 back_rough01.jpg 
+kuutio 40000 63500 brs-logo.jpg titel.jpg
+
+munkki3 63500 79000 shakki.jpg
+
+
+# tunneliosuus
+tunneli 79000 96000 back_rough01.jpg 
+tunneli2 96000 112000 back_rough02.jpg 
+
+# eka wobble
+#picshow 112000 120000 brs-logo.jpg
+#wobble 112000 120000 brs-logo.jpg
+#picfadeout 120000 122000 brs-logo.jpg 2000
+
+picshow 112000 120000 back04.jpg
+wobble 112000 120000 back-face.jpg
+picfadeout 120000 122000 back04.jpg 2000
+
+# credits
+vilkku 127000 143000 credit.jpg
+twister 120000 143000 credit.jpg
+
+# wobble
+picshow 160000 176000 back041.jpg
+levy 160000 176000 titel.jpg 
+

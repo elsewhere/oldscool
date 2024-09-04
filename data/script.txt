@@ -1,0 +1,72 @@
+# Brainstorm Advanced Scripting System (B.A.S.S)
+# by Preacher / Brainstorm
+
+starttime 0
+endtime 185000
+debug
+
+
+loadsong axel.mp3
+
+loadjpg titel.jpg
+loadjpg brs-logo.jpg
+loadjpg credit.jpg
+loadjpg back_rough01.jpg
+loadjpg back_rough02.jpg
+loadjpg shakki.jpg
+loadjpg back04.jpg
+loadjpg back041.jpg
+loadjpg back-face.jpg
+loadjpg back-mood3.jpg
+
+#timeline
+
+picfadein 7500 8000 brs-logo.jpg 500
+picpulse 8000 16500 brs-logo.jpg 0.5
+picpulse 16000 24000 titel.jpg 0.3
+
+picshow 24000 31000 titel.jpg 
+picshow 31000 40000 brs-logo.jpg 
+picunwrap 31000 32000 titel.jpg
+
+munkki2 23700 32000 titel.jpg 
+munkki 32000 40000 brs-logo.jpg 
+picshow 40000 63500 back_rough01.jpg 
+
+spiraali 40000 48000
+
+kuutio 48000 63500 brs-logo.jpg titel.jpg
+picunwrap 40000 41000 brs-logo.jpg
+
+munkki3 63500 79000 shakki.jpg
+fadein 63000 63500 255 255 255 500
+
+
+# tunneliosuus
+tunneli 79000 96000 back_rough01.jpg 
+tunneli2 96000 112000 back_rough01.jpg 
+
+# eka wobble
+#picshow 112000 120000 brs-logo.jpg
+#wobble 112000 120000 brs-logo.jpg
+#picfadeout 120000 122000 brs-logo.jpg 2000
+
+picshow 112000 120000 back04.jpg
+wobble 112000 120000 back-face.jpg
+picfadeout 120000 122000 back04.jpg 2000
+
+# credits
+vilkku 127000 143000 credit.jpg
+twister 120000 143000 credit.jpg
+
+# glenz
+pink 143000 161000 back_rough02.jpg
+
+# wobble
+#picshow 160000 181300 back041.jpg
+picshow 160000 170000 brs-logo.jpg
+picfadein 166000 181300 back041.jpg 4000
+levy 160000 179600 brs-logo.jpg 
+
+sirpale 181300 185000 back041.jpg
+
